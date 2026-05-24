@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teknologjia Moderne</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#eef4ff;
+    color:#333;
+}
+
+header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#2563eb;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    padding:30px;
+}
+
+h2{
+    color:#1e3a8a;
+}
+
+img{
+    width:300px;
+    border-radius:10px;
+    margin:10px;
+}
+
+.quiz-box{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.question{
+    margin-bottom:25px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e40af;
+}
+
+textarea{
+    width:100%;
+    height:120px;
+    border-radius:10px;
+    padding:10px;
+}
+
+footer{
+    text-align:center;
+    background:#1e3a8a;
+    color:white;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Teknologjia</h1>
+    <p>Projekti i TIK</p>
+</header>
+
+<nav>
+    <a href="#info">Informacion</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#feedback">Feedback</a>
+</nav>
+
+<section id="info">
+    <h2>Çfarë është teknologjia?</h2>
+
+    <p>
+        Teknologjia është përdorimi i njohurive shkencore për të krijuar
+        mjete, pajisje dhe sisteme që ndihmojnë njerëzit në jetën e përditshme.
+        Ajo përfshin shumë fusha si kompjuterët, telefonat inteligjentë,
+        internetin, robotikën dhe inteligjencën artificiale. Teknologjia ka
+        ndryshuar mënyrën se si komunikojmë, mësojmë, punojmë dhe argëtohemi.
+        Për shembull, falë internetit mund të komunikojmë menjëherë me njerëz
+        nga vende të ndryshme të botës, të ndjekim mësime online dhe të marrim
+        informacione në pak sekonda.
+    </p>
+
+    <p>
+        Në ditët e sotme, teknologjia përdoret pothuajse në çdo profesion dhe
+        aspekt të jetës. Në mjekësi ndihmon doktorët të diagnostikojnë sëmundje
+        më shpejt dhe më saktë. Në arsim, nxënësit mund të përdorin kompjuterë
+        dhe platforma online për të mësuar më lehtë. Gjithashtu, teknologjia
+        përdoret në transport, biznese dhe argëtim. Megjithatë, përdorimi i
+        tepërt i teknologjisë mund të sjellë probleme si varësia nga telefoni
+        ose mungesa e aktivitetit fizik, prandaj duhet përdorur me kujdes dhe
+        në mënyrë të balancuar.
+    </p>
+
+    <h2>Llojet e Teknologjisë</h2>
+
+    <p>
+        Ekzistojnë shumë lloje të teknologjisë. Teknologjia e informacionit
+        përfshin kompjuterët, programet dhe internetin. Teknologjia e
+        komunikimit përdoret për telefonat, rrjetet sociale dhe aplikacionet
+        e mesazheve. Teknologjia mjekësore përfshin pajisje si skanerët dhe
+        robotët kirurgjikalë. Gjithashtu, po zhvillohet shumë inteligjenca
+        artificiale, e cila mund të ndihmojë njerëzit në zgjidhjen e
+        problemeve dhe automatizimin e punëve të ndryshme.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800"
+    alt="Teknologjia">
+
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+    alt="Programim">
+</section>
+
+<section id="quiz">
+    <h2>Quiz rreth Teknologjisë</h2>
+
+    <div class="quiz-box">
+
+        <div class="question">
+            <p>1. Çfarë do të thotë WWW?</p>
+            <label><input type="radio" name="q1" value="1"> World Wide Web</label><br>
+            <label><input type="radio" name="q1" value="0"> World Web Window</label><br>
+            <label><input type="radio" name="q1" value="0"> Wide World Work</label>
+        </div>
+
+        <div class="question">
+            <p>2. Çfarë përdorim të kërkuar në internet?</p>
+            <label><input type="radio" name="q2" value="0"> Calculator</label><br>
+            <label><input type="radio" name="q2" value="1"> Browser</label><br>
+            <label><input type="radio" name="q2" value="0"> Camera</label>
+        </div>
+
+        <div class="question">
+            <p>3. Kush është truri i kompjuterit?</p>
+            <label><input type="radio" name="q3" value="1"> CPU</label><br>
+            <label><input type="radio" name="q3" value="0"> Mouse</label><br>
+            <label><input type="radio" name="q3" value="0"> Printer</label>
+        </div>
+
+        <div class="question">
+            <p>4. Çfarë përdorim për të ruajtur të dhënat?</p>
+            <label><input type="radio" name="q4" value="0"> Keyboard</label><br>
+            <label><input type="radio" name="q4" value="1"> Hard Disk</label><br>
+            <label><input type="radio" name="q4" value="0"> Screen</label>
+        </div>
+
+        <div class="question">
+            <p>5. Çfarë është inteligjenca artificiale?</p>
+            <label><input type="radio" name="q5" value="0"> Një lojë</label><br>
+            <label><input type="radio" name="q5" value="1"> Teknologji që simulon inteligjencën njerëzore</label><br>
+            <label><input type="radio" name="q5" value="0"> Një telefon</label>
+        </div>
+
+        <button onclick="checkQuiz()">Shiko Rezultatin</button>
+        <h3 id="result"></h3>
+
+    </div>
+</section>
+
+<section id="feedback">
+    <h2>Feedback i Përdoruesve</h2>
+
+    <p>Shkruani mendimin tuaj ose eksperiencën me teknologjinë:</p>
+
+    <textarea id="feedbackText" placeholder="Shkruani këtu..."></textarea>
+    <br><br>
+
+    <button onclick="submitFeedback()">Dërgo</button>
+
+    <h3>Feedback-et e dërguara:</h3>
+    <div id="feedbackList"></div>
+</section>
+
+<footer>
+    <p>Projekt TIK - Teknologjia</p>
+</footer>
+
+<script>
+const radios = document.querySelectorAll('input[type="radio"]');
+
+radios.forEach(radio => {
+    radio.addEventListener('change', function() {
+        let name = this.name;
+        let sameQuestion = document.querySelectorAll(
+            'input[name="' + name + '"]'
+        );
+
+        sameQuestion.forEach(option => {
+            option.disabled = true;
+        });
+
+        this.disabled = false;
+    });
+});
+
+function checkQuiz(){
+    let score = 0;
+
+    document.querySelectorAll('input[type="radio"]:checked')
+    .forEach(answer => {
+        score += Number(answer.value);
+    });
+
+    document.getElementById("result").innerHTML =
+    "Ju morët " + score + " nga 5 pikë!";
+}
+</script>
+
+</body>
+</html>
